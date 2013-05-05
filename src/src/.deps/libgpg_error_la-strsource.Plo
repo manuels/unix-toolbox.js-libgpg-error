@@ -1,1 +1,13 @@
-# dummy
+libgpg_error_la-strsource.lo: strsource.c ../config.h gpg-error.h \
+  /home/manuel/lib/emscripten/system/include/libc/stddef.h gettext.h \
+  err-sources.h
+
+../config.h:
+
+gpg-error.h:
+
+/home/manuel/lib/emscripten/system/include/libc/stddef.h:
+
+gettext.h:
+
+err-sources.h:

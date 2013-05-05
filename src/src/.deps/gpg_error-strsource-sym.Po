@@ -1,1 +1,11 @@
-# dummy
+gpg_error-strsource-sym.o: strsource-sym.c ../config.h \
+  /home/manuel/lib/emscripten/system/include/libc/stddef.h gpg-error.h \
+  err-sources-sym.h
+
+../config.h:
+
+/home/manuel/lib/emscripten/system/include/libc/stddef.h:
+
+gpg-error.h:
+
+err-sources-sym.h:
