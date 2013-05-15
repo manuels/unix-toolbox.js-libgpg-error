@@ -45,7 +45,7 @@ BEGIN
             VALUE "PrivateBuild", "\0"
             VALUE "ProductName", "libgpg-error\0"
             VALUE "ProductVersion", "1.11\0"
-            VALUE "SpecialBuild", "2013-05-05T14:49+0000\0"
+            VALUE "SpecialBuild", "2013-05-10T14:34+0000\0"
         END
     END
 END

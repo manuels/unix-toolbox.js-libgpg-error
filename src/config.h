@@ -5,7 +5,7 @@
 #define BUILD_REVISION "3367ff0"
 
 /* The time this package was configured for a build */
-#define BUILD_TIMESTAMP "2013-05-05T14:49+0000"
+#define BUILD_TIMESTAMP "2013-05-10T14:34+0000"
 
 /* Define to 1 if translation of program messages to the user's native
    language is requested. */
@@ -34,7 +34,7 @@
 /* #undef HAVE_GETTEXT */
 
 /* Define if you have the iconv() function and it works. */
-#define HAVE_ICONV 0
+#define HAVE_ICONV 1
 
 /* Define to 1 if you have the <inttypes.h> header file. */
 #define HAVE_INTTYPES_H 1

@@ -105,7 +105,7 @@ NM="/usr/bin/nm -B"
 LN_S="ln -s"
 
 # What is the maximum length of a command?
-max_cmd_len=1572864
+max_cmd_len=805306365
 
 # Object file suffix (normally "o").
 objext=o
@@ -275,7 +275,7 @@ finish_eval=""
 hardcode_into_libs=yes
 
 # Compile-time system search path for libraries.
-sys_lib_search_path_spec="/home/manuel/lib/clang+llvm-3.2-x86-linux-ubuntu-12.04/lib/clang/3.2 /usr/lib/gcc/i686-linux-gnu/4.7 /usr/lib/i386-linux-gnu /lib/i386-linux-gnu /usr/lib /lib "
+sys_lib_search_path_spec=" "
 
 # Run-time system search path for libraries.
 sys_lib_dlsearch_path_spec="/lib /usr/lib /usr/lib/i386-linux-gnu/mesa-egl /usr/lib/i386-linux-gnu/mesa /lib/i386-linux-gnu /usr/lib/i386-linux-gnu /lib/i686-linux-gnu /usr/lib/i686-linux-gnu /usr/local/lib "
@@ -326,7 +326,7 @@ link_static_flag="-static"
 compiler_c_o="yes"
 
 # Whether or not to add -lc for building shared libraries.
-build_libtool_need_lc=no
+build_libtool_need_lc=yes
 
 # Whether or not to disallow shared libs when runtime libs are static.
 allow_libtool_libs_with_static_runtimes=no
